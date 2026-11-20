@@ -3,5 +3,5 @@
 set -euo pipefail
 #mkdir reportes
 #python -m pytest "$@"
-python -m pytest --junitxml=resultados/junit.xml "$@"
+python -m pytest --junitxml=reportes/junit.xml "$@"
 
